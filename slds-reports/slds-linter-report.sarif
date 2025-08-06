@@ -1,0 +1,2028 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "slds-linter",
+          "rules": [
+            {
+              "id": "slds/no-slds-namespace-for-custom-hooks",
+              "shortDescription": {
+                "text": "To differentiate custom styling hooks from SLDS styling hooks, create custom styling hooks in your namespace."
+              }
+            },
+            {
+              "id": "slds/no-slds-var-without-fallback",
+              "shortDescription": {
+                "text": "Add fallback values to SLDS styling hooks. The fallback values are used in Salesforce environments where styling hooks are unavailable."
+              }
+            },
+            {
+              "id": "slds/no-hardcoded-values-slds2",
+              "shortDescription": {
+                "text": "Replace static values with SLDS 2 styling hooks. For more information, look up design tokens on lightningdesignsystem.com."
+              }
+            }
+          ],
+          "version": "0.5.0",
+          "informationUri": "https://github.com/salesforce-ux/slds-linter",
+          "organization": "Salesforce"
+        }
+      },
+      "results": [
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-family-base isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-family-base (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 3,
+                  "endLine": 19,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-scale-neg-2 isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-scale-neg-2 (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 3,
+                  "endLine": 20,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-scale-neg-1 isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-scale-neg-1 (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 3,
+                  "endLine": 21,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-scale-0 isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-scale-0 (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 3,
+                  "endLine": 22,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-weight-4 isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-weight-4 (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 3,
+                  "endLine": 23,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-body-font-scale-neg-2-line-height isn't supported. Create the custom styling hook in your namespace. Example: --myapp-body-font-scale-neg-2-line-height (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 3,
+                  "endLine": 24,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-body-font-scale-neg-1-line-height isn't supported. Create the custom styling hook in your namespace. Example: --myapp-body-font-scale-neg-1-line-height (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 3,
+                  "endLine": 25,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-body-font-scale-0-line-height isn't supported. Create the custom styling hook in your namespace. Example: --myapp-body-font-scale-0-line-height (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 3,
+                  "endLine": 26,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-g-color-success-container-dark isn't supported. Create the custom styling hook in your namespace. Example: --myapp-g-color-success-container-dark (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 3,
+                  "endLine": 32,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-g-color-on-success-dark isn't supported. Create the custom styling hook in your namespace. Example: --myapp-g-color-on-success-dark (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 3,
+                  "endLine": 33,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-g-color-success-dark isn't supported. Create the custom styling hook in your namespace. Example: --myapp-g-color-success-dark (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 3,
+                  "endLine": 34,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-g-color-on-success-2-dark isn't supported. Create the custom styling hook in your namespace. Example: --myapp-g-color-on-success-2-dark (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 3,
+                  "endLine": 35,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-g-color-success-container-2-dark isn't supported. Create the custom styling hook in your namespace. Example: --myapp-g-color-success-container-2-dark (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 3,
+                  "endLine": 36,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-color-success-container-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-color-success-container-1, #2e844a) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 25,
+                  "endLine": 41,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-color-on-success-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-color-on-success-1, #ffffff) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 14,
+                  "endLine": 42,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-family-base isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-family-base (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 20,
+                  "endLine": 43,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-scale-neg-1 isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-scale-neg-1 (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 18,
+                  "endLine": 44,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-weight-4 isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-weight-4 (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 20,
+                  "endLine": 45,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-body-font-scale-neg-1-line-height isn't supported. Create the custom styling hook in your namespace. Example: --myapp-body-font-scale-neg-1-line-height (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 20,
+                  "endLine": 46,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-spacing-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-spacing-1, 0.25rem) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 16,
+                  "endLine": 47,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-spacing-2 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-spacing-2, 0.5rem) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 40,
+                  "endLine": 47,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-radius-border-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-radius-border-1, 0.125rem) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 22,
+                  "endLine": 48,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-spacing-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-spacing-1, 0.25rem) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 12,
+                  "endLine": 51,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-color-warning-container-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-color-warning-container-1, #dd7a01) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 25,
+                  "endLine": 55,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-color-on-warning-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-color-on-warning-1, #181818) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 14,
+                  "endLine": 56,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-family-base isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-family-base (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 20,
+                  "endLine": 57,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-scale-neg-1 isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-scale-neg-1 (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 18,
+                  "endLine": 58,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-weight-4 isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-weight-4 (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 20,
+                  "endLine": 59,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-body-font-scale-neg-1-line-height isn't supported. Create the custom styling hook in your namespace. Example: --myapp-body-font-scale-neg-1-line-height (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 20,
+                  "endLine": 60,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-spacing-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-spacing-1, 0.25rem) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 16,
+                  "endLine": 61,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-spacing-2 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-spacing-2, 0.5rem) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 40,
+                  "endLine": 61,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-radius-border-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-radius-border-1, 0.125rem) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 22,
+                  "endLine": 62,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-spacing-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-spacing-1, 0.25rem) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 12,
+                  "endLine": 65,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "There's no replacement styling hook for the 14px static value. Remove the static value. (slds/no-hardcoded-values-slds2)."
+          },
+          "ruleId": "slds/no-hardcoded-values-slds2",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 10,
+                  "endLine": 69,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "ruleIndex": 2
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "There's no replacement styling hook for the 14px static value. Remove the static value. (slds/no-hardcoded-values-slds2)."
+          },
+          "ruleId": "slds/no-hardcoded-values-slds2",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 11,
+                  "endLine": 70,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "ruleIndex": 2
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "There's no replacement styling hook for the 14px static value. Remove the static value. (slds/no-hardcoded-values-slds2)."
+          },
+          "ruleId": "slds/no-hardcoded-values-slds2",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 10,
+                  "endLine": 79,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "ruleIndex": 2
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "There's no replacement styling hook for the 14px static value. Remove the static value. (slds/no-hardcoded-values-slds2)."
+          },
+          "ruleId": "slds/no-hardcoded-values-slds2",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 11,
+                  "endLine": 80,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "ruleIndex": 2
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-color-error-container-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-color-error-container-1, #ba0517) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 25,
+                  "endLine": 89,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-color-on-error-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-color-on-error-1, #ffffff) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 14,
+                  "endLine": 90,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-family-base isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-family-base (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 20,
+                  "endLine": 91,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-scale-neg-1 isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-scale-neg-1 (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 18,
+                  "endLine": 92,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-weight-4 isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-weight-4 (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 20,
+                  "endLine": 93,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-body-font-scale-neg-1-line-height isn't supported. Create the custom styling hook in your namespace. Example: --myapp-body-font-scale-neg-1-line-height (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 20,
+                  "endLine": 94,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-spacing-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-spacing-1, 0.25rem) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 95,
+                  "startColumn": 16,
+                  "endLine": 95,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-spacing-2 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-spacing-2, 0.5rem) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 95,
+                  "startColumn": 40,
+                  "endLine": 95,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-radius-border-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-radius-border-1, 0.125rem) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 22,
+                  "endLine": 96,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Your code uses the --slds-g-spacing-1 styling hook without a fallback value. Styling hooks are unavailable in some Salesforce environments. To render your component correctly in all environments, add this fallback value: var(--slds-g-spacing-1, 0.25rem) . To make this fallback value brand-aware, use a branded design token instead of a static value. See Design Tokens on v1.lightningdesignsystem.com. (slds/no-slds-var-without-fallback)."
+          },
+          "ruleId": "slds/no-slds-var-without-fallback",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 12,
+                  "endLine": 99,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "ruleIndex": 1
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "There's no replacement styling hook for the 14px static value. Remove the static value. (slds/no-hardcoded-values-slds2)."
+          },
+          "ruleId": "slds/no-hardcoded-values-slds2",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 10,
+                  "endLine": 103,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "ruleIndex": 2
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "There's no replacement styling hook for the 14px static value. Remove the static value. (slds/no-hardcoded-values-slds2)."
+          },
+          "ruleId": "slds/no-hardcoded-values-slds2",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "styles/slds-tokens.css",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 11,
+                  "endLine": 104,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "ruleIndex": 2
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-family-base isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-family-base (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 28,
+                  "endLine": 18,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-scale-neg-1 isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-scale-neg-1 (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 26,
+                  "endLine": 19,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-weight-4 isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-weight-4 (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 28,
+                  "endLine": 20,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-body-font-scale-neg-1-line-height isn't supported. Create the custom styling hook in your namespace. Example: --myapp-body-font-scale-neg-1-line-height (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 28,
+                  "endLine": 21,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-background-color isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-background-color (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 27,
+                  "endLine": 24,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-text-color isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-text-color (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 29,
+                  "endLine": 25,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-border-radius isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-border-radius (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 31,
+                  "endLine": 26,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-padding isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-padding (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 32,
+                  "endLine": 27,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-gap isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-gap (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 28,
+                  "endLine": 28,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-font-family isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-font-family (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 29,
+                  "endLine": 29,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-font-size isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-font-size (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 29,
+                  "endLine": 30,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-font-weight isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-font-weight (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 31,
+                  "endLine": 31,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-line-height isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-line-height (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 31,
+                  "endLine": 32,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-hover-background isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-hover-background (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 33,
+                  "endLine": 35,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-active-background isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-active-background (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 34,
+                  "endLine": 36,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-focus-outline isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-focus-outline (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 38,
+                  "endLine": 37,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-focus-offset isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-focus-offset (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 37,
+                  "endLine": 38,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-transition isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-transition (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 35,
+                  "endLine": 41,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-scale-hover isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-scale-hover (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 36,
+                  "endLine": 42,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-badge-success-scale-active isn't supported. Create the custom styling hook in your namespace. Example: --myapp-badge-success-scale-active (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 37,
+                  "endLine": 43,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-scale-neg-2 isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-scale-neg-2 (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 29,
+                  "endLine": 87,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-body-font-scale-neg-2-line-height isn't supported. Create the custom styling hook in your namespace. Example: --myapp-body-font-scale-neg-2-line-height (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 31,
+                  "endLine": 88,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-font-scale-0 isn't supported. Create the custom styling hook in your namespace. Example: --myapp-font-scale-0 (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 29,
+                  "endLine": 94,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-body-font-scale-0-line-height isn't supported. Create the custom styling hook in your namespace. Example: --myapp-body-font-scale-0-line-height (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 95,
+                  "startColumn": 31,
+                  "endLine": 95,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "There's no replacement styling hook for the 1px static value. Remove the static value. (slds/no-hardcoded-values-slds2)."
+          },
+          "ruleId": "slds/no-hardcoded-values-slds2",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 13,
+                  "endLine": 203,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "ruleIndex": 2
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Consider replacing the black static value with an SLDS 2 styling hook that has a similar value: \n1. --slds-g-color-palette-neutral-10\n2. --slds-g-color-neutral-base-10\n3. --slds-g-color-palette-green-10\n4. --slds-g-color-palette-teal-10\n5. --slds-g-color-success-base-10 (slds/no-hardcoded-values-slds2)."
+          },
+          "ruleId": "slds/no-hardcoded-values-slds2",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 219,
+                  "startColumn": 12,
+                  "endLine": 219,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "ruleIndex": 2
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "There's no replacement styling hook for the 1px static value. Remove the static value. (slds/no-hardcoded-values-slds2)."
+          },
+          "ruleId": "slds/no-hardcoded-values-slds2",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 13,
+                  "endLine": 220,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "ruleIndex": 2
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-g-color-success-container-dark isn't supported. Create the custom styling hook in your namespace. Example: --myapp-g-color-success-container-dark (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 235,
+                  "startColumn": 29,
+                  "endLine": 235,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-g-color-on-success-dark isn't supported. Create the custom styling hook in your namespace. Example: --myapp-g-color-on-success-dark (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 236,
+                  "startColumn": 31,
+                  "endLine": 236,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-g-color-success-dark isn't supported. Create the custom styling hook in your namespace. Example: --myapp-g-color-success-dark (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 240,
+                  "startColumn": 29,
+                  "endLine": 240,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-g-color-on-success-2-dark isn't supported. Create the custom styling hook in your namespace. Example: --myapp-g-color-on-success-2-dark (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 241,
+                  "startColumn": 31,
+                  "endLine": 241,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-g-color-success-container-2-dark isn't supported. Create the custom styling hook in your namespace. Example: --myapp-g-color-success-container-2-dark (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 29,
+                  "endLine": 245,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Using the --slds namespace for --slds-g-color-on-success-dark isn't supported. Create the custom styling hook in your namespace. Example: --myapp-g-color-on-success-dark (slds/no-slds-namespace-for-custom-hooks)."
+          },
+          "ruleId": "slds/no-slds-namespace-for-custom-hooks",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/BadgeSuccess/BadgeSuccess.css",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 31,
+                  "endLine": 246,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "ruleIndex": 0
+        }
+      ],
+      "properties": {
+        "id": 68316327,
+        "version": "0.5.0",
+        "submissionDate": "2025-08-06",
+        "language": "html",
+        "status": "accepted",
+        "type": "source code"
+      },
+      "artifacts": [
+        {
+          "sourceLanguage": "CSS",
+          "location": {
+            "uri": "styles/slds-tokens.css"
+          }
+        },
+        {
+          "sourceLanguage": "CSS",
+          "location": {
+            "uri": "src/components/BadgeSuccess/BadgeSuccess.css"
+          }
+        }
+      ]
+    }
+  ]
+}

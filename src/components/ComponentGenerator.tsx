@@ -85,7 +85,24 @@ const ComponentGenerator: React.FC<ComponentGeneratorProps> = ({ onComponentGene
               <li>Open Cursor Chat</li>
               <li>Type: <code className="bg-yellow-100 px-1 rounded">@figma Generate SLDS2 component</code></li>
               <li>Watch real-time code generation!</li>
+              <li>🎯 <strong>Auto SLDS2 validation</strong> in the Compliance tab</li>
             </ol>
+          </div>
+        </div>
+
+        {/* SLDS Linter Integration Info */}
+        <div className="mt-3 p-3 bg-blue-50 border border-blue-200 rounded-md">
+          <div className="text-sm text-blue-800">
+            <div className="flex items-center gap-2 mb-2">
+              <span>⚡</span>
+              <strong>SLDS2 Compliance Checking</strong>
+            </div>
+            <div className="space-y-1">
+              <div>✅ Real-time validation with <a href="https://github.com/salesforce-ux/slds-linter" target="_blank" rel="noopener noreferrer" className="underline">@salesforce-ux/slds-linter</a></div>
+              <div>✅ Lightning Design System 2 best practices</div>
+              <div>✅ Automatic fix suggestions for common issues</div>
+              <div>✅ Enterprise-grade component validation</div>
+            </div>
           </div>
         </div>
       </div>

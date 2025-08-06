@@ -8,7 +8,7 @@
  */
 
 // Main component exports
-export { default as BadgeSuccess, BadgeSuccessCore } from './BadgeSuccess';
+export { default as BadgeSuccess, BadgeSuccessCore, FigmaBadgeSuccess } from './BadgeSuccess';
 
 // Type definitions
 export type {
@@ -16,7 +16,8 @@ export type {
   BadgeSuccessIcon,
   BadgeSuccessTheme,
   BadgeSuccessHooks,
-  BadgeSuccessContext
+  BadgeSuccessContext,
+  FigmaBadgeSuccessProps
 } from './types';
 
 // Context and providers

@@ -1,24 +1,37 @@
 /**
  * SLDS2 Badge Success Component Styles
- * Enterprise-grade CSS with Lightning Design System 2 compliance
- * Implements BEM methodology with CSS custom properties for runtime theming
+ * Updated from Figma design: ⚡ Badge - Success (Node ID: 12537_109385)
+ * Implements exact SLDS2 styling hooks from design-systems-metadata API
+ * 
+ * Figma Design Tokens Applied:
+ * - Background: --slds-g-color-success-container-1: #acf3e4
+ * - Text Color: --slds-g-color-on-success-1: #056764
+ * - Font: SF Pro Regular 12px (font/scale/neg-1: 12, lineHeight: 17)
+ * - Spacing: --slds-g-spacing-1: 4px, --slds-g-spacing-2: 8px
+ * - Border Radius: --slds-g-radius-border-1: 4px
+ * - Font Weight: font/weight/4: Regular (400)
  */
 
 /* =========================================
-   SLDS2 Design Token Integration
+   SLDS2 Design Token Integration (From Figma)
    ========================================= */
 
 .slds-badge-success {
-  /* Core SLDS2 tokens */
+  /* EXACT Figma design tokens - SLDS2 styling hooks */
   --badge-bg-color: var(--slds-g-color-success-container-1, #acf3e4);
   --badge-text-color: var(--slds-g-color-on-success-1, #056764);
   --badge-border-radius: var(--slds-g-radius-border-1, 4px);
   --badge-spacing-sm: var(--slds-g-spacing-1, 4px);
   --badge-spacing-md: var(--slds-g-spacing-2, 8px);
-  --badge-font-family: var(--slds-font-family-base, 'SF Pro', sans-serif);
-  --badge-font-size: var(--slds-font-scale-neg-1, 12px);
-  --badge-font-weight: var(--slds-font-weight-4, 400);
-  --badge-line-height: var(--slds-body-font-scale-neg-1-line-height, 17px);
+  
+  /* Typography from Figma: SF Pro Regular 12px/17px */
+  --badge-font-family: var(--slds-g-font-family-base, 'SF Pro', -apple-system, BlinkMacSystemFont, sans-serif);
+  --badge-font-size: var(--slds-g-font-scale-neg-1, 12px);
+  --badge-font-weight: var(--slds-g-font-weight-4, 400);
+  --badge-line-height: var(--slds-g-body-font-scale-neg-1-line-height, 17px);
+  
+  /* Icon sizing from Figma: 14px (3.5 * 4px spacing unit) */
+  --badge-icon-size: var(--slds-g-sizing-3-5, 14px);
   
   /* Component-specific theming hooks */
   --badge-success-bg: var(--slds-badge-success-background-color, var(--badge-bg-color));
@@ -48,26 +61,34 @@
    ========================================= */
 
 .slds-badge-success {
-  /* Layout */
+  /* Exact Figma layout: flex-row with gap-1, items-center, justify-start */
   display: inline-flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: var(--badge-success-gap);
-  padding: var(--badge-success-padding);
-  border: none;
-  border-radius: var(--badge-success-radius);
+  justify-content: flex-start; /* Match Figma: justify-start instead of center */
+  flex-wrap: nowrap;
+  gap: var(--badge-spacing-sm); /* 4px gap from Figma design */
   
-  /* Typography */
-  font-family: var(--badge-success-font);
-  font-size: var(--badge-success-size);
-  font-weight: var(--badge-success-weight);
-  line-height: var(--badge-success-height);
+  /* Exact Figma spacing: px-2 py-1 (8px horizontal, 4px vertical) */
+  padding: var(--badge-spacing-sm) var(--badge-spacing-md);
+  border: none;
+  border-radius: var(--badge-border-radius);
+  
+  /* Figma: overflow-clip for proper content containment */
+  overflow: hidden;
+  
+  /* Typography from Figma: SF Pro Regular 12px/17px */
+  font-family: var(--badge-font-family);
+  font-size: var(--badge-font-size);
+  font-weight: var(--badge-font-weight);
+  line-height: var(--badge-line-height);
   text-decoration: none;
   white-space: nowrap;
+  text-align: left; /* Match Figma left alignment */
   
-  /* Colors */
-  background-color: var(--badge-success-bg);
-  color: var(--badge-success-text);
+  /* Exact Figma colors */
+  background-color: var(--badge-bg-color);
+  color: var(--badge-text-color);
   
   /* Behavior */
   cursor: default;
@@ -151,6 +172,9 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  /* Figma icon container: 14px size (3.5 * 4px) */
+  width: var(--badge-icon-size);
+  height: var(--badge-icon-size);
 }
 
 .slds-badge-success__icon--left {

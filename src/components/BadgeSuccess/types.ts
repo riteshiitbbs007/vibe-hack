@@ -10,6 +10,29 @@ export interface BadgeSuccessIcon {
   alt: string;
   /** Icon size variant */
   size?: 'small' | 'medium' | 'large';
+  /** Fallback icon source for error cases */
+  fallbackSrc?: string;
+}
+
+/**
+ * Figma Badge Success Props
+ * Simplified interface that matches the Figma design specifications exactly
+ */
+export interface FigmaBadgeSuccessProps {
+  /** Whether to show left icon (checkmark) */
+  showLeftIcon?: boolean;
+  /** Whether to show right icon */
+  showRightIcon?: boolean;
+  /** Badge text content */
+  labelText?: string;
+  /** Additional CSS class names */
+  className?: string;
+  /** Unique identifier */
+  id?: string;
+  /** Click handler */
+  onClick?: () => void;
+  /** Test identifier */
+  'data-testid'?: string;
 }
 
 export interface BadgeSuccessProps {
