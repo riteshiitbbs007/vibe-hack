@@ -5,13 +5,15 @@ node_modules/
 
 # Testing
 /coverage
-/test-results/
-/playwright-report/
 /playwright/.cache/
 
 # Production
 /dist
 /build
+
+# Include test results and reports for demo purposes
+# /test-results/
+# /playwright-report/
 
 # Environment variables
 .env
@@ -38,7 +40,7 @@ lerna-debug.log*
 *.sln
 *.sw?
 
-# Playwright
-test-results/
-playwright-report/
+# Playwright - commented out to include test results for demo
+# test-results/
+# playwright-report/
 playwright/.cache/

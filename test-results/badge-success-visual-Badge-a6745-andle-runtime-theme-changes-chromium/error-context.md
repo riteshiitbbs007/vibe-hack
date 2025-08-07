@@ -1,0 +1,66 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - heading "🌐 SLDS2 Component Generator & Tools" [level=1]
+  - paragraph: Enterprise-grade Lightning Design System 2 components with real-time validation and testing
+  - text: ✅ Figma MCP Ready 🎯 Live Generation 🎨 SLDS2 Badge Ready ⚡ SLDS Linter Integrated 🌐 SLDS2 Metadata API 🎭 Playwright MCP
+- navigation:
+  - button "🌐 SLDS2 Component Generator"
+  - button "🎨 SLDS2 Badge Success Demo"
+  - button "⚡ SLDS Linter Integration"
+  - button "🎭 Playwright MCP Testing"
+- main:
+  - heading "SLDS2 Badge Success Component" [level=1]
+  - paragraph: Enterprise-grade, framework-agnostic badge with Lightning Design System 2 compliance
+  - heading "Basic Usage" [level=2]
+  - 'status "Success: Success"': Success
+  - 'status "Success: Task Completed"': Task Completed
+  - 'status "Success: Small"': Small
+  - 'status "Success: Large"': Large
+  - heading "Visual Variants" [level=2]
+  - 'status "Success: Default"': Default
+  - 'status "Success: Strong"': Strong
+  - 'status "Success: Subtle"': Subtle
+  - heading "Interactive Features" [level=2]
+  - button "Success badge": Click me (0)
+  - button "Toggle visibility demo": Toggle Demo
+  - 'status "Success: Visible Badge"': Visible Badge
+  - paragraph: Try clicking the badges above. The first one tracks clicks, the second toggles the visibility of another badge.
+  - heading "Custom Icons" [level=2]
+  - 'status "Success: Custom Check"': Custom Check
+  - 'status "Success: Both Icons"': Both Icons
+  - heading "Enterprise Configuration" [level=2]
+  - 'status "Success: Configured Theme"': Configured Theme
+  - 'button "Success: With Analytics"': With Analytics
+  - 'status "Success: Enterprise Success"': Enterprise Success
+  - paragraph: These badges use enterprise configuration with custom theming and analytics tracking. Check the browser console to see analytics events.
+  - heading "Accessibility Features" [level=2]
+  - status "Task completed successfully with high priority": High Priority
+  - button "Click to view task details": View Details
+  - 'status "Success: Processing Done"': Processing Done
+  - text: The data processing task has completed successfully without errors.
+  - heading "Accessibility Features:" [level=3]
+  - list:
+    - listitem: • Full keyboard navigation (Tab, Enter, Space)
+    - listitem: • Screen reader announcements with aria-live
+    - listitem: • Automatic ARIA label generation
+    - listitem: • Focus management and visual indicators
+    - listitem: • Respects prefers-reduced-motion
+    - listitem: • High contrast mode support
+  - heading "Real-world Use Cases" [level=2]
+  - heading "Status Dashboard" [level=3]
+  - text: Database Connection
+  - 'status "Success: Connected"': Connected
+  - text: API Health
+  - 'status "Success: Healthy"': Healthy
+  - text: Backup Status
+  - 'status "Success: Complete"': Complete
+  - heading "Task Management" [level=3]
+  - text: Setup Environment
+  - 'button "Success: Done"': Done
+  - text: Run Tests
+  - 'status "Success: Passed"': Passed
+  - text: Deploy to Production
+  - 'status "Success: Success"': Success
+```
